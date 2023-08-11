@@ -7,13 +7,44 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #f5f5f5;
             margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            text-align: center;
             padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        #menu {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Estilos para los enlaces del menú */
+        #menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        #menu li {
+            margin: 10px 0;
+        }
+
+        .contenido {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
-            text-align: center;
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -23,42 +54,80 @@
         p {
             color: #333;
         }
+
+        .correct {
+            color: green;
+        }
+
+        .incorrect {
+            color: red;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+        }
     </style>
 
 </head>
 <body>
-
-    <h1>Preguntas sobre Fútbol</h1>
+    <div id="header">
+        <h1>Preguntas sobre Fútbol</h1>
+    </div>
     
-    <h2>1. ¿Cuál es el deporte más popular del mundo?</h2>
-    <p>El fútbol es ampliamente considerado como el deporte más popular del mundo.</p>
+    <div id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                Historia
+            </li>
+            <li>
+                Sobre El Juego
+            </li>
+            <li>
+                Bibliografia
+            </li>
+            <li>
+                Notas y referencias
+            </li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <h2>1. ¿Cuál es el deporte más popular del mundo?</h2>
+        <p>El fútbol es ampliamente considerado como el deporte más popular del mundo.</p>
     
-    <h2>2. ¿En qué año se celebró la primera Copa Mundial de la FIFA?</h2>
-    <p>La primera Copa Mundial de la FIFA se celebró en 1930 en Uruguay.</p>
+        <h2>2. ¿En qué año se celebró la primera Copa Mundial de la FIFA?</h2>
+        <p>La primera Copa Mundial de la FIFA se celebró en 1930 en Uruguay.</p>
     
-    <h2>3. ¿Cuántos jugadores conforman un equipo de fútbol en el campo durante un partido?</h2>
-    <p>Un equipo de fútbol tiene 11 jugadores en el campo durante un partido.</p>
+        <h2>3. ¿Cuántos jugadores conforman un equipo de fútbol en el campo durante un partido?</h2>
+        <p>Un equipo de fútbol tiene 11 jugadores en el campo durante un partido.</p>
     
-    <h2>4. ¿Qué jugador tiene el récord de más goles marcados en la historia de las Copas Mundiales?</h2>
-    <p>Miroslav Klose de Alemania tiene el récord con 16 goles en Copas Mundiales.</p>
+        <h2>4. ¿Qué jugador tiene el récord de más goles marcados en la historia de las Copas Mundiales?</h2>
+        <p>Miroslav Klose de Alemania tiene el récord con 16 goles en Copas Mundiales.</p>
     
-    <h2>5. ¿Cuál es el trofeo otorgado al equipo ganador de la Copa Mundial de la FIFA?</h2>
-    <p>El trofeo otorgado al equipo ganador de la Copa Mundial es la Copa del Mundo de la FIFA.</p>
+        <h2>5. ¿Cuál es el trofeo otorgado al equipo ganador de la Copa Mundial de la FIFA?</h2>
+        <p>El trofeo otorgado al equipo ganador de la Copa Mundial es la Copa del Mundo de la FIFA.</p>
     
-    <h2>6. ¿En qué país se originó el fútbol moderno?</h2>
-    <p>El fútbol moderno se originó en Inglaterra en el siglo XIX.</p>
+        <h2>6. ¿En qué país se originó el fútbol moderno?</h2>
+        <p>El fútbol moderno se originó en Inglaterra en el siglo XIX.</p>
     
-    <h2>7. ¿Qué jugador ha ganado el premio Balón de Oro en más ocasiones?</h2>
-    <p>Lionel Messi ha ganado el premio Balón de Oro en múltiples ocasiones.</p>
+        <h2>7. ¿Qué jugador ha ganado el premio Balón de Oro en más ocasiones?</h2>
+        <p>Lionel Messi ha ganado el premio Balón de Oro en múltiples ocasiones.</p>
     
-    <h2>8. ¿Qué país ha ganado más Copas Mundiales de la FIFA?</h2>
-    <p>Brasil ha ganado la Copa Mundial en varias ocasiones, siendo el país con más títulos.</p>
+        <h2>8. ¿Qué país ha ganado más Copas Mundiales de la FIFA?</h2>
+        <p>Brasil ha ganado la Copa Mundial en varias ocasiones, siendo el país con más títulos.</p>
     
-    <h2>9. ¿Cuál es la duración estándar de un partido de fútbol?</h2>
-    <p>Un partido de fútbol consta de dos mitades de 45 minutos cada una, con un descanso de 15 minutos en medio.</p>
+        <h2>9. ¿Cuál es la duración estándar de un partido de fútbol?</h2>
+        <p>Un partido de fútbol consta de dos mitades de 45 minutos cada una, con un descanso de 15 minutos en medio.</p>
     
-    <h2>10. ¿Qué torneo de clubes es conocido como la "Champions League"?</h2>
-    <p>La Liga de Campeones de la UEFA, también conocida como la "Champions League", es un torneo de clubes de fútbol europeo de alto nivel.</p>
+        <h2>10. ¿Qué torneo de clubes es conocido como la "Champions League"?</h2>
+        <p>La Liga de Campeones de la UEFA, también conocida como la "Champions League", es un torneo de clubes de fútbol europeo de alto nivel.</p>
+    </div>
     
+    <div id="footer">
+         <p>&copy; 2023 Cuestionario de Fútbol</p>
+    </div>
 </body>
 </html>
