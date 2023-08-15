@@ -8,61 +8,25 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
         }
-
         #header {
             text-align: center;
             padding: 20px;
             background-color: #007BFF;
             color: white;
         }
-
         #menu {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
             background-color: #f5f5f5;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
-        /* Estilos para los enlaces del menú */
-        #menu ul {
-            list-style: none;
-            padding: 0;
-        }
-        #menu li {
-            margin: 10px 0;
-        }
-
         .contenido {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
             background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
         }
-
-        h1 {
-            margin-bottom: 20px;
-        }
-
         h2 {
             color: #007BFF;
         }
-
         p {
             color: #333;
         }
-
-        .correct {
-            color: green;
-        }
-
-        .incorrect {
-            color: red;
-        }
-
         #footer {
             text-align: center;
             padding: 10px;
@@ -70,7 +34,6 @@
             color: white;
         }
     </style>
-
 </head>
 <body>
     <div id="header">
@@ -91,7 +54,6 @@
          <h2>1. ¿Quién es el principal villano en el mundo de Warcraft?</h2>
         <p>El principal villano es Sargeras, el titán oscuro y líder de la Legión Ardiente.</p>
         <img src="imagenes/guldan_zhqm.jpg" alt="">
-
         <h2>2. ¿Cuál es el continente principal en el mundo de Warcraft?</h2>
         <p>El continente principal es Azeroth, donde la mayoría de los eventos del juego tienen lugar.</p>
         <img src="imagenes/Maplordaeron.webp" alt="">
@@ -109,16 +71,31 @@
         <img src="imagenes/arthas.jpg" alt="">
         <h2>7. ¿Cuál es el título de la expansión que introdujo a los pandaren como una nueva raza jugable?</h2>
         <p>La expansión que introdujo a los pandaren como una nueva raza jugable se llama "World of Warcraft: Mists of Pandaria".</p>
-        <img src="imagenes/pandaria.webp" alt="">
+        <img src="imagenes/pandaria.webp" alt=""width="800" height="800">
         <h2>8. ¿Cuál es el nombre de la fuente de magia y poder mágico en el mundo de Warcraft?</h2>
         <p>La fuente de magia y poder mágico en el mundo de Warcraft se llama Pozo de la Eternidad.</p>
-        <img src="imagenes/pozo de la eternidad.jpg" alt="">
+        <img src="imagenes/pozo de la eternidad.jpg" alt="" width="800" height="800">
         <h2>9. ¿Qué raza de humanoides con aspecto de toros habita principalmente en las llanuras de Mulgore?</h2>
         <p>Los tauren, una raza de humanoides con aspecto de toros, habitan principalmente en las llanuras de Mulgore.</p>
         <img src="imagenes/tauren.jpg" alt="">
         <h2>10. ¿Cuál es el nombre de la capital de la Alianza, situada en el continente de los Reinos del Este?</h2>
         <p>La capital de la Alianza en los Reinos del Este es Ventormenta.</p>
         <img src="imagenes/ventormenta.webp" alt="">
+        <form action="#" method="post">
+            <ul>
+              <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="msg">Comentario:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>              
+            </ul>
+          </form>
     </div>
     
     <div id="footer">
@@ -126,4 +103,3 @@
     </div>
 </body>
 </html>
-
