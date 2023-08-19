@@ -1,8 +1,20 @@
-body{
+.body1{
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/gq/GQZO0U1WRW8E1566592359746.jpg);
     background-size: 1300px 1000px;
     position: relative;
     background-repeat: repeat-y;
+}
+.body2{
+    background-color: greenyellow;
+}
+.body3{
+    background-color: yellow;
+}
+.body4{
+    background-color: red;
+}
+.body5{
+    background-color: aqua;
 }
 img{
     width: 120%;
@@ -12,6 +24,7 @@ header{
     background-color: rgb(71, 33, 33);
 }
 .logo{
+    
     width: 150px;
     height: 90px;
     border-radius: 100%;
@@ -28,43 +41,33 @@ nav{
     cursor: pointer;
     margin: 10px;
 }
-.image{
+.contenido1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.image1{
     width: 200px;
-    height: 150px;
+    height: auto;
+}
+.texto {
+    flex: 1;
+    padding: 0 20px;
+    text-align: right;
 }
 h2{
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-p{
+.p2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 footer{
     background-color: rgb(94, 90, 90);
-}
-
-.footer__form {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-}
-
-.form__list {
-    list-style: none;
-    padding: 0;
-}
-
-.form__item {
-    margin-bottom: 10px;
-}
-.form__boton {
-    background-color: #007BFF;
-    color: white;
-    border: 5px solid gray;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 10px;
-    transition: background-color 0.3s;
 }
