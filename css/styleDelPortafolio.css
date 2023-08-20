@@ -1,0 +1,57 @@
+.body1{
+    background-color: cyan;
+}
+.body2{
+    background-color: blue;
+}
+.body3{
+    background-color: rgb(126, 126, 120);
+}
+.body4{
+    background-color: rgb(4, 138, 82);
+}
+.body5{
+    background-color: rgb(255, 153, 0);
+}
+header{
+    background-color: rgb(222, 236, 236);
+}
+.logo{
+    
+    width: 150px;
+    height: 90px;
+    border-radius: 100%;
+}
+nav{
+    text-align: center;
+}
+.Menu__opciones{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: cyan;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    height: auto;
+}
+h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    background-color: rgb(94, 90, 90);
+}
