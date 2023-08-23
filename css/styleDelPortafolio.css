@@ -1,17 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .body1{
-    background-color: cyan;
+    background-image: url(https://images4.alphacoders.com/104/1049588.jpg);
+    background-size: 1500px 900px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .body2{
-    background-color: blue;
+    background-image: url(https://images6.alphacoders.com/601/601846.jpg);
+    background-size: 1200px 900px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .body3{
-    background-color: rgb(126, 126, 120);
+    background-image: url(https://images.alphacoders.com/128/1281555.jpg);
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .body4{
-    background-color: rgb(4, 138, 82);
+    background-image: url(https://images.alphacoders.com/125/1258304.png);
+    background-size: 1000px 900px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .body5{
-    background-color: rgb(255, 153, 0);
+    background-image: url(https://images.alphacoders.com/121/1216480.png);
+    background-size: 1200px 900px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 header{
     background-color: cyan;
@@ -36,7 +55,8 @@ nav{
 }
 .titulo{
     text-align: center;
-    margin: 0px -400px 0px 0px;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
 }
 .Menu__opciones{
     font-family: cursive;
@@ -52,24 +72,58 @@ nav{
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    color: aliceblue;
+}
+.contenido__text {
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
 }
 .image{
+    padding-right: 10px;
     position: relative;
     width: 500px;
     height: 700px;
     margin: -20px 0px -20px -20px;
 }
-.texto{
-    flex: 1;
-    padding-left: 30px;
-    margin: -550px 0px 0px 0px;
+.image1{
+    position: relative;
+    width: 500px;
+    height: 510px;
+    margin: -20px -22px -20px -20px;
+}
+.image2{
+    padding-left: 20px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: -20px -20px -20px -20px;
+}
+.image3{
+    padding-left: 20px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: -20px -20px -20px -20px;
+}
+.image4{
+    padding-left: 20px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: -20px -20px -20px -20px;
+}
+.image5{
+    padding-left: 20px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: -20px -20px -20px -20px;
 }
 h2{
-    color: black;
     font-family: cursive;
 }
 p{
-    color: black;
     font-family: cursive;
 }
 footer{
